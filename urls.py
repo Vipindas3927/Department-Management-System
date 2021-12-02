@@ -19,7 +19,8 @@ from django.urls import path, include
 import login
 import student
 
-urlpatterns = [
+urlpatterns = 
+[
     path('admin/', admin.site.urls),
     path('', include('home_page.urls')),
     path('login/', include('login.urls')),
